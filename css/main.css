@@ -1,7 +1,7 @@
 
 
 
-nav {
+.navigation{
 	background:	#FF4500;
 	height: 50px;
 	left: 0;
@@ -12,59 +12,148 @@ nav {
 
 }
 
-nav >a {
+.navigation >a {
 	color: 	#FFFFFF;
 	font:'italic';
 	font-size: 26px;
-	font-weight: 500;
+	font-weight: 400;
 	left: 25px;
 	position: absolute;
 	text-align: left;
 	text-decoration: none;
 	top: 10px;
 }
-nav img {
+.navigation img {
     border-radius: 30%;
-    height: 35px;
+    height:35px;
 	width: 25px;
 }
 
 
-nav sup{
+.navigation sup{
 font-family: 'Open Sans', sans-serif;
 	color: 	#FFFFFF
 	text-align: left;
 	color: 	#FFFFFF;
 }
-nav ul {
+.navigation ul {
 	position: absolute;
 	right: 25px;
 	top:5px;
 	color: 	#FFFFFF;
 }
 
-nav li {
+.navigation li {
 	display: inline-block;
 	padding:0 15px;
 	color: 	#FFFFFF;
 }
-nav li > a {
+.navigation li > a {
 	color: #FFFFFF;
 	text-decoration: none;
 	-webkit-transition: all 0.3s ease-in-out;
 	        transition: all 0.3s ease-in-out;
 }
-/** section 1**/
-#orange {
-	
-	font-family: 'Teko', sans-serif;
-	height: 600px;
+.main{
+
+	float: left;
+	margin-top: 20px;
+	height: 200px;
+	width: 30%;
+
 }
 
-.main-section p {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 12px;
-	line-height: 20px;
-	margin: 0 10%;
-	width: 45%;
-} 
+.main img{
+	height:280;
+	width: 100%;
+}
+nav {
+	
+    padding: 40px;
+
+}
+
+nav > div {
+	display: inline-block;
+	 border: double;
+}
+
+nav > div > a {
+	color: #464646;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav > div:last-child {
+	float: right;
+}
+
+nav input {
+	border: double;
+	background-color:lightblue : 
+}
+
+.sidebar {
+	
+	float: right;
+	height: 100px;
+	width: 30%;
+	margin-top: 50px;
+}
+.sidebar  h2 {
+	
+	float: right;
+	height: 55px;
+	width: 150%;
+}
+/**.header button {
+	margin-top: 150px;
+background-color: orange;
+	border: none;
+	border-radius: 15px;
+	display: inline-block;
+	padding:10px 10px 15px 10px  ;
+	margin-left: 340px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	
+	
+}***/
+
+
+/**.header button2 {
+
+background-color: lightblue;
+	border: none;
+	border-radius: 15px;
+	display: inline-block;
+	padding:10px 10px 15px 10px  ;
+	margin-left: 580px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}**/
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: bottom;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 154px 2px;
+
+}
+
+.button2 {background-color: #008CBA;}
+
+.footer {
+	clear: both;
+	background-color: #FF4500;
+	font-size: 4px;
+	padding: 30px;
+}
